@@ -1,34 +1,3 @@
-{
-  "timestamp": "2024-12-27T20:47:08.238215",
-  "environment": "local",
-  "resources": [
-    {
-      "timestamp": 0.006719350814819336,
-      "cpu_percent": 0.0,
-      "memory_percent": 0.3899389669554578,
-      "memory_mb": 15.0390625
-    },
-    {
-      "timestamp": 1.0092861652374268,
-      "cpu_percent": 0.0,
-      "memory_percent": 0.3899389669554578,
-      "memory_mb": 15.0390625
-    },
-    {
-      "timestamp": 2.0110836029052734,
-      "cpu_percent": 0.0,
-      "memory_percent": 0.3899389669554578,
-      "memory_mb": 15.0390625
-    },
-    {
-      "timestamp": 3.0122592449188232,
-      "cpu_percent": 0.0,
-      "memory_percent": 0.3899389669554578,
-      "memory_mb": 15.0390625
-    }
-  ],
-  "status": "failed",
-  "duration": 4.032849073410034,
-  "errors": [],
-  "return_code": 2
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:85e7955f764f85b6bb5925c8be2bd8feb7b43b785f613b70bbc306e9755d6c10
+size 795

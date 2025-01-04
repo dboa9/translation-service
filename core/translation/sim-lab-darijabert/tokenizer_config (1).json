@@ -1,1 +1,3 @@
-{"do_lower_case": true, "unk_token": "[UNK]", "sep_token": "[SEP]", "pad_token": "[PAD]", "cls_token": "[CLS]", "mask_token": "[MASK]", "tokenize_chinese_chars": true, "strip_accents": null, "special_tokens_map_file": null, "name_or_path": "config_folder_vm", "do_basic_tokenize": true, "never_split": null}
+version https://git-lfs.github.com/spec/v1
+oid sha256:73271d19d6e551a32414ceafbc373e8ee39901c9a94fbccbf1cff6b1655ca28b
+size 307
