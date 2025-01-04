@@ -1,0 +1,68 @@
+# Interface Configuration
+
+# Model display settings
+model_display:
+  show_capabilities: true
+  show_metrics: true
+  show_analysis: true
+
+# Model capabilities
+model_capabilities:
+  "AnasAber/seamless-darija-eng":
+    direction: "bidirectional"
+    source_langs: ["darija", "english"]
+    target_langs: ["darija", "english"]
+    features: ["translation"]
+    trusted: true
+    
+  "Anassk/MoroccanDarija-Llama-3.1-8B":
+    direction: "unidirectional"
+    source_langs: ["darija"]
+    target_langs: ["english"]
+    features: ["translation", "analysis"]
+    trusted: false
+    
+  "hananeChab/darija_englishV2.1":
+    direction: "bidirectional"
+    source_langs: ["darija", "english"]
+    target_langs: ["darija", "english"]
+    features: ["translation"]
+    trusted: false
+
+# Interface settings
+interface:
+  max_input_length: 500
+  show_metrics: true
+  enable_gpu_metrics: true
+  cache_translations: true
+  
+# Monitoring settings
+monitoring:
+  log_training_metrics: true
+  log_deployment_status: true
+  metrics_update_interval: 5  # seconds
+  max_log_entries: 100
+  
+# Training settings
+training:
+  display_metrics:
+    - loss
+    - accuracy
+    - validation_score
+  update_interval: 10  # seconds
+  show_progress_bar: true
+  
+# Deployment settings
+deployment:
+  show_ec2_status: true
+  show_model_transfer: true
+  show_dataset_transfer: true
+  log_level: info
+  
+# System metrics
+metrics:
+  update_interval: 5  # seconds
+  show_gpu: true
+  show_memory: true
+  show_cpu: true
+  show_disk: true

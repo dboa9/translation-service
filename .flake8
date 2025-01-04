@@ -1,0 +1,26 @@
+[flake8]
+# Match Black's line length
+max-line-length = 88
+
+# Exclude files or directories that should not be linted
+exclude =
+    .git,
+    __pycache__,
+    build/,
+    dist/,
+    migrations/,
+    .venv/,
+    .env/,
+    node_modules/
+
+# Ignore specific warnings and errors
+ignore =
+    E501,  # Let Black handle line-length
+    W503,  # Line break before binary operator
+    E402,  # Import not at the top of the file
+
+# Set maximum complexity for cyclomatic complexity checks
+max-complexity = 10
+
+# Enable optional extensions for additional checks
+enable-extensions = G, D  # D: Docstrings, G: Other custom extensions

@@ -1,0 +1,8 @@
+model_checkpoints:
+  - "hananeChab/darija_englishV2.1"
+  - "Anassk/MoroccanDarija-Llama-3.1-8B"
+  - "centino00/darija-to-english"
+  - "lachkarsalim/LatinDarija_English-v2"
+  - "ychafiqui/darija-to-english-2"
+  - "atlasia/Transliteration-Moroccan-Darija"
+  - "Helsinki-NLP/opus-mt-ar-en"

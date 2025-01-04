@@ -1,0 +1,34 @@
+#Do not REMOVE LOCATION OR FILE NAME COMMENTS, EDIT IF NEEDED BUT NO REMOVAL OF THESE KINDS OF COMMENTS
+#config/newest_dataset_loader_debug.yaml
+debug:
+  datasets:
+    atlasia/darija_english:
+      subsets:
+        - web_data
+        - comments
+        - stories
+        - doda
+        - transliteration
+      required_columns:
+        web_data:
+          train:
+            - english
+            - darija
+            - source
+        comments:
+          - id
+          - english
+          - darija
+          - source
+        stories:
+          - ChapterName
+          - darija
+          - english
+          - chunk_id
+        doda:
+          - id
+          - darija
+          - en
+        transliteration:
+          - darija_arabizi
+          - darija_arabic

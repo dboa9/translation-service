@@ -1,0 +1,34 @@
+# Enable specific rule sets
+select = [
+    "E",   # pycodestyle errors
+    "F",   # pyflakes
+    "C90", # mccabe complexity
+    "I",   # isort
+    "D",   # pydocstyle
+    "B",   # flake8-bugbear
+    "G",   # flake8-logging-format
+]
+
+# Ignore rules that conflict with Black
+ignore = [
+    "E501"  # Let Black handle line length
+]
+
+# Set line length to match Black
+line-length = 88
+
+# Exclude specific directories
+exclude = [
+    ".git",
+    "__pycache__",
+    "build",
+    "dist",
+    "migrations",
+    ".venv",
+    ".env",
+    "node_modules",
+]
+
+# Per-file ignores for specific rules
+[per-file-ignores]
+"tests/**/*.py" = ["D"]

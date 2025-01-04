@@ -1,0 +1,13 @@
+{
+  "AnasAber/seamless-darija-eng": {
+    "status": "success",
+    "translations": [
+      {
+        "input": "hello how are you",
+        "translation": "API Error: The following `model_kwargs` are not used by the model: ['src_lang'] (note: typos in the generate arguments will also show up in this list)",
+        "source_lang": "ary",
+        "target_lang": "eng"
+      }
+    ]
+  }
+}

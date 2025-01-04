@@ -1,0 +1,31 @@
+debug:
+  datasets:
+    atlasia/darija_english:
+      subsets:
+        - web_data
+        - comments
+        - stories
+        - doda
+        - transliteration
+      required_columns:
+        web_data:
+          - english
+          - darija
+          - source
+        comments:
+          - id
+          - english
+          - darija
+          - source
+        stories:
+          - ChapterName
+          - darija
+          - english
+          - chunk_id
+        doda:
+          - id
+          - darija
+          - en
+        transliteration:
+          - darija_arabizi
+          - darija_arabic

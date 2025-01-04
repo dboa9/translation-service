@@ -1,0 +1,465 @@
+2024-12-27 20:47:08,241 - INFO - Starting test execution with monitoring...
+2024-12-27 20:47:08,245 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 20:47:09,247 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 20:47:10,249 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 20:47:11,250 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 20:47:12,271 - INFO - Test Output:
+2024-12-27 20:47:12,272 - INFO - ============================= test session starts ==============================
+platform linux -- Python 3.11.10, pytest-8.3.3, pluggy-1.5.0 -- /home/mrdbo/miniconda3/envs/dataset_test_deploy_ec2/bin/python
+cachedir: .pytest_cache
+rootdir: /mnt/c/Users/mrdbo/Documents/ReactDev/AWS/ec2/translation-service
+configfile: pytest.ini
+plugins: mock-3.14.0, cov-6.0.0, anyio-4.6.2.post1
+collecting ... collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+____________ ERROR collecting tests/test_all_models_translation.py _____________
+/home/mrdbo/miniconda3/envs/dataset_test_deploy_ec2/lib/python3.11/site-packages/_pytest/python.py:493: in importtestmodule
+    mod = import_path(
+/home/mrdbo/miniconda3/envs/dataset_test_deploy_ec2/lib/python3.11/site-packages/_pytest/pathlib.py:582: in import_path
+    importlib.import_module(module_name)
+/home/mrdbo/miniconda3/envs/dataset_test_deploy_ec2/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+<frozen importlib._bootstrap>:1204: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1176: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1147: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:690: in _load_unlocked
+    ???
+/home/mrdbo/miniconda3/envs/dataset_test_deploy_ec2/lib/python3.11/site-packages/_pytest/assertion/rewrite.py:184: in exec_module
+    exec(co, module.__dict__)
+tests/test_all_models_translation.py:20: in <module>
+    from core.translation.translation_service import TranslationService
+E     File "/mnt/c/Users/mrdbo/Documents/ReactDev/AWS/ec2/translation-service/core/translation/translation_service.py", line 176
+E       early_stopping=True
+E   IndentationError: unexpected indent
+=========================== short test summary info ============================
+ERROR tests/test_all_models_translation.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 1.57s ===============================
+
+2024-12-27 20:47:12,277 - INFO - Test execution completed in 4.0 seconds
+2024-12-27 20:47:12,277 - INFO - Results saved to logs/test_results_20241227_204712.json
+2024-12-27 20:53:40,969 - INFO - Starting test execution with monitoring...
+2024-12-27 20:53:40,972 - INFO - CPU: 0.0% | Memory: 14.9MB (0.4%)
+2024-12-27 20:53:41,973 - INFO - CPU: 0.0% | Memory: 14.9MB (0.4%)
+2024-12-27 20:53:42,973 - INFO - Test Output:
+2024-12-27 20:53:42,974 - INFO - ============================= test session starts ==============================
+platform linux -- Python 3.11.10, pytest-8.3.3, pluggy-1.5.0 -- /home/mrdbo/miniconda3/envs/dataset_test_deploy_ec2/bin/python
+cachedir: .pytest_cache
+rootdir: /mnt/c/Users/mrdbo/Documents/ReactDev/AWS/ec2/translation-service
+configfile: pytest.ini
+plugins: mock-3.14.0, cov-6.0.0, anyio-4.6.2.post1
+collecting ... collected 0 items / 1 error
+
+==================================== ERRORS ====================================
+____________ ERROR collecting tests/test_all_models_translation.py _____________
+/home/mrdbo/miniconda3/envs/dataset_test_deploy_ec2/lib/python3.11/site-packages/_pytest/python.py:493: in importtestmodule
+    mod = import_path(
+/home/mrdbo/miniconda3/envs/dataset_test_deploy_ec2/lib/python3.11/site-packages/_pytest/pathlib.py:582: in import_path
+    importlib.import_module(module_name)
+/home/mrdbo/miniconda3/envs/dataset_test_deploy_ec2/lib/python3.11/importlib/__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+<frozen importlib._bootstrap>:1204: in _gcd_import
+    ???
+<frozen importlib._bootstrap>:1176: in _find_and_load
+    ???
+<frozen importlib._bootstrap>:1147: in _find_and_load_unlocked
+    ???
+<frozen importlib._bootstrap>:690: in _load_unlocked
+    ???
+/home/mrdbo/miniconda3/envs/dataset_test_deploy_ec2/lib/python3.11/site-packages/_pytest/assertion/rewrite.py:184: in exec_module
+    exec(co, module.__dict__)
+tests/test_all_models_translation.py:20: in <module>
+    from core.translation.translation_service import TranslationService
+E     File "/mnt/c/Users/mrdbo/Documents/ReactDev/AWS/ec2/translation-service/core/translation/translation_service.py", line 176
+E       early_stopping=True
+E   IndentationError: unexpected indent
+=========================== short test summary info ============================
+ERROR tests/test_all_models_translation.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+=============================== 1 error in 0.90s ===============================
+
+2024-12-27 20:53:42,979 - INFO - Test execution completed in 2.0 seconds
+2024-12-27 20:53:42,979 - INFO - Results saved to logs/test_results_20241227_205342.json
+2024-12-27 21:00:26,538 - INFO - Starting test execution with monitoring...
+2024-12-27 21:00:26,554 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:00:27,555 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:00:28,556 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:00:29,557 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:00:30,559 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:00:31,587 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:00:32,588 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:00:33,593 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:00:34,697 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:00:35,699 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:00:36,704 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:00:37,708 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:00:38,709 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:00:39,710 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:00:40,712 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:00:41,713 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:00:42,715 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:00:43,717 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:00:44,718 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:00:46,081 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:00:47,082 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:00:48,476 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:00:49,522 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:00:50,523 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:00:51,526 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:00:52,527 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:00:53,528 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:00:54,530 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:00:55,531 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:00:56,532 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:00:57,855 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:00:58,857 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:00:59,857 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:01:00,859 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:01:01,972 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:01:03,019 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:01:04,020 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:01:05,022 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:01:06,022 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:01:07,023 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:01:08,024 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:01:09,026 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:01:10,027 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:01:11,029 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:01:12,047 - INFO - CPU: 0.0% | Memory: 15.0MB (0.4%)
+2024-12-27 21:01:13,048 - INFO - CPU: 0.0% | Memory: 14.9MB (0.4%)
+2024-12-27 21:01:14,049 - INFO - CPU: 0.0% | Memory: 14.9MB (0.4%)
+2024-12-27 21:01:15,050 - INFO - CPU: 0.0% | Memory: 14.9MB (0.4%)
+2024-12-27 21:01:16,051 - INFO - CPU: 0.0% | Memory: 14.9MB (0.4%)
+2024-12-27 21:01:17,052 - INFO - CPU: 0.0% | Memory: 14.9MB (0.4%)
+2024-12-27 21:01:18,053 - INFO - CPU: 0.0% | Memory: 14.9MB (0.4%)
+2024-12-27 21:01:19,055 - INFO - CPU: 0.0% | Memory: 14.8MB (0.4%)
+2024-12-27 21:01:20,056 - INFO - CPU: 0.0% | Memory: 14.8MB (0.4%)
+2024-12-27 21:01:21,057 - INFO - CPU: 0.0% | Memory: 14.7MB (0.4%)
+2024-12-27 21:01:22,059 - INFO - CPU: 0.0% | Memory: 14.7MB (0.4%)
+2024-12-27 21:01:23,061 - INFO - CPU: 0.0% | Memory: 14.7MB (0.4%)
+2024-12-27 21:01:24,062 - INFO - CPU: 0.0% | Memory: 13.2MB (0.3%)
+2024-12-27 21:01:25,063 - INFO - CPU: 0.0% | Memory: 13.2MB (0.3%)
+2024-12-27 21:01:26,064 - INFO - CPU: 0.0% | Memory: 13.2MB (0.3%)
+2024-12-27 21:01:27,065 - INFO - CPU: 0.0% | Memory: 13.2MB (0.3%)
+2024-12-27 21:01:28,065 - INFO - CPU: 0.0% | Memory: 13.2MB (0.3%)
+2024-12-27 21:01:29,066 - INFO - CPU: 0.0% | Memory: 13.2MB (0.3%)
+2024-12-27 21:01:30,067 - INFO - CPU: 0.0% | Memory: 13.2MB (0.3%)
+2024-12-27 21:01:31,068 - INFO - CPU: 0.0% | Memory: 13.2MB (0.3%)
+2024-12-27 21:01:32,069 - INFO - CPU: 0.0% | Memory: 13.2MB (0.3%)
+2024-12-27 21:01:33,070 - INFO - CPU: 0.0% | Memory: 13.2MB (0.3%)
+2024-12-27 21:01:34,071 - INFO - CPU: 0.0% | Memory: 13.2MB (0.3%)
+2024-12-27 21:01:35,072 - INFO - CPU: 0.0% | Memory: 13.2MB (0.3%)
+2024-12-27 21:01:36,073 - INFO - CPU: 0.0% | Memory: 13.2MB (0.3%)
+2024-12-27 21:01:37,074 - INFO - CPU: 0.0% | Memory: 13.2MB (0.3%)
+2024-12-27 21:01:38,216 - INFO - CPU: 0.0% | Memory: 13.2MB (0.3%)
+2024-12-27 21:01:39,218 - INFO - CPU: 0.0% | Memory: 13.2MB (0.3%)
+2024-12-27 21:01:40,303 - INFO - CPU: 0.0% | Memory: 13.2MB (0.3%)
+2024-12-27 21:01:41,305 - INFO - CPU: 0.0% | Memory: 13.2MB (0.3%)
+2024-12-27 21:01:42,400 - INFO - CPU: 0.0% | Memory: 13.2MB (0.3%)
+2024-12-27 21:01:43,401 - INFO - CPU: 0.0% | Memory: 13.2MB (0.3%)
+2024-12-27 21:01:44,402 - INFO - CPU: 0.0% | Memory: 13.2MB (0.3%)
+2024-12-27 21:01:45,403 - INFO - CPU: 0.0% | Memory: 13.2MB (0.3%)
+2024-12-27 21:01:46,404 - INFO - CPU: 0.0% | Memory: 13.2MB (0.3%)
+2024-12-27 21:01:47,406 - INFO - CPU: 0.0% | Memory: 13.2MB (0.3%)
+2024-12-27 21:01:48,407 - INFO - CPU: 0.0% | Memory: 13.2MB (0.3%)
+2024-12-27 21:01:49,408 - INFO - CPU: 0.0% | Memory: 13.2MB (0.3%)
+2024-12-27 21:01:50,410 - INFO - CPU: 0.0% | Memory: 13.2MB (0.3%)
+2024-12-27 21:01:51,411 - INFO - CPU: 0.0% | Memory: 13.2MB (0.3%)
+2024-12-27 21:01:52,413 - INFO - CPU: 0.0% | Memory: 13.2MB (0.3%)
+2024-12-27 21:01:53,414 - INFO - CPU: 0.0% | Memory: 13.2MB (0.3%)
+2024-12-27 21:01:54,415 - INFO - CPU: 0.0% | Memory: 13.1MB (0.3%)
+2024-12-27 21:01:55,417 - INFO - CPU: 0.0% | Memory: 13.1MB (0.3%)
+2024-12-27 21:01:56,418 - INFO - CPU: 0.0% | Memory: 13.1MB (0.3%)
+2024-12-27 21:01:57,419 - INFO - CPU: 0.0% | Memory: 13.1MB (0.3%)
+2024-12-27 21:01:58,421 - INFO - CPU: 0.0% | Memory: 13.1MB (0.3%)
+2024-12-27 21:01:59,422 - INFO - CPU: 0.0% | Memory: 13.1MB (0.3%)
+2024-12-27 21:02:00,423 - INFO - CPU: 0.0% | Memory: 13.1MB (0.3%)
+2024-12-27 21:02:01,425 - INFO - CPU: 0.0% | Memory: 13.1MB (0.3%)
+2024-12-27 21:02:02,426 - INFO - CPU: 0.0% | Memory: 13.1MB (0.3%)
+2024-12-27 21:02:03,428 - INFO - Test Output:
+2024-12-27 21:02:03,429 - INFO - ============================= test session starts ==============================
+platform linux -- Python 3.11.10, pytest-8.3.3, pluggy-1.5.0 -- /home/mrdbo/miniconda3/envs/dataset_test_deploy_ec2/bin/python
+cachedir: .pytest_cache
+rootdir: /mnt/c/Users/mrdbo/Documents/ReactDev/AWS/ec2/translation-service
+configfile: pytest.ini
+plugins: mock-3.14.0, cov-6.0.0, anyio-4.6.2.post1
+collecting ... collected 1 item
+
+tests/test_all_models_translation.py::test_all_models 
+-------------------------------- live log call ---------------------------------
+INFO     core.translation.translation_service:translation_service.py:35 Initializing TranslationService...
+INFO     core.translation.translation_service:translation_service.py:41 HuggingFace token loaded successfully
+INFO     core.translation.translation_service:translation_service.py:70 Looking for config at: config/model_config.yaml
+INFO     core.translation.translation_service:translation_service.py:77 Found config file attempting to load...
+INFO     core.translation.translation_service:translation_service.py:91 Successfully loaded 4 models
+INFO     core.translation.translation_service:translation_service.py:93 Found model: AnasAber/seamless-darija-eng
+INFO     core.translation.translation_service:translation_service.py:93 Found model: AnasAber/nllb-enhanced-darija-eng_v1-1
+INFO     core.translation.translation_service:translation_service.py:93 Found model: imomayiz/darija_englishV2.1
+INFO     core.translation.translation_service:translation_service.py:93 Found model: lachkarsalim/LatinDarija_English-v2
+INFO     core.translation.translation_service:translation_service.py:109 Loading cached model: AnasAber/seamless-darija-eng
+ERROR    core.translation.translation_service:translation_service.py:119 Error loading cached model AnasAber/seamless-darija-eng: Error no file named pytorch_model.bin, model.safetensors, tf_model.h5, model.ckpt.index or flax_model.msgpack found in directory model_cache/AnasAber_seamless-darija-eng.
+INFO     core.translation.translation_service:translation_service.py:109 Loading cached model: lachkarsalim/LatinDarija_English-v2
+ERROR    core.translation.translation_service:translation_service.py:119 Error loading cached model lachkarsalim/LatinDarija_English-v2: Error no file named pytorch_model.bin, model.safetensors, tf_model.h5, model.ckpt.index or flax_model.msgpack found in directory model_cache/lachkarsalim_LatinDarija_English-v2.
+INFO     core.translation.translation_service:translation_service.py:56 TranslationService initialized successfully
+INFO     tests.test_all_models_translation:test_all_models_translation.py:102 Testing model: AnasAber/seamless-darija-eng
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: Hello, how are you?
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: AnasAber/seamless-darija-eng
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: AnasAber/seamless-darija-eng
+INFO     core.translation.translation_service:translation_service.py:251 Model AnasAber/seamless-darija-eng status: {'loaded': False, 'state': 'Loadable', 'compute_type': 'cpu', 'framework': 'transformers'}
+INFO     core.translation.translation_service:translation_service.py:261 Triggering model loading for AnasAber/seamless-darija-eng
+INFO     core.translation.translation_service:translation_service.py:213 Using API for model: AnasAber/seamless-darija-eng
+ERROR    core.translation.translation_service:translation_service.py:224 Translation error: 0
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for AnasAber/seamless-darija-eng (basic) with 'Hello, how are you?': Translation failed validation checks
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: كيف حالك؟
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: AnasAber/seamless-darija-eng
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: AnasAber/seamless-darija-eng
+INFO     core.translation.translation_service:translation_service.py:251 Model AnasAber/seamless-darija-eng status: {'loaded': False, 'state': 'Loadable', 'compute_type': 'cpu', 'framework': 'transformers'}
+INFO     core.translation.translation_service:translation_service.py:261 Triggering model loading for AnasAber/seamless-darija-eng
+INFO     core.translation.translation_service:translation_service.py:213 Using API for model: AnasAber/seamless-darija-eng
+ERROR    core.translation.translation_service:translation_service.py:224 Translation error: 0
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for AnasAber/seamless-darija-eng (basic) with 'كيف حالك؟': Translation failed validation checks
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: I love Moroccan cuisine and traditional dishes.
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: AnasAber/seamless-darija-eng
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: AnasAber/seamless-darija-eng
+INFO     core.translation.translation_service:translation_service.py:251 Model AnasAber/seamless-darija-eng status: {'loaded': False, 'state': 'Loadable', 'compute_type': 'cpu', 'framework': 'transformers'}
+INFO     core.translation.translation_service:translation_service.py:261 Triggering model loading for AnasAber/seamless-darija-eng
+INFO     core.translation.translation_service:translation_service.py:213 Using API for model: AnasAber/seamless-darija-eng
+ERROR    core.translation.translation_service:translation_service.py:224 Translation error: 0
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for AnasAber/seamless-darija-eng (complex) with 'I love Moroccan cuisine and traditional dishes.': Translation failed validation checks
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: نتمنى لك يوما سعيدا وحياة مليئة بالسعادة
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: AnasAber/seamless-darija-eng
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: AnasAber/seamless-darija-eng
+INFO     core.translation.translation_service:translation_service.py:251 Model AnasAber/seamless-darija-eng status: {'loaded': False, 'state': 'Loadable', 'compute_type': 'cpu', 'framework': 'transformers'}
+INFO     core.translation.translation_service:translation_service.py:261 Triggering model loading for AnasAber/seamless-darija-eng
+INFO     core.translation.translation_service:translation_service.py:213 Using API for model: AnasAber/seamless-darija-eng
+ERROR    core.translation.translation_service:translation_service.py:224 Translation error: 0
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for AnasAber/seamless-darija-eng (complex) with 'نتمنى لك يوما سعيدا وحياة مليئة بالسعادة': Translation failed validation checks
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: The model is being trained on the GPU server.
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: AnasAber/seamless-darija-eng
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: AnasAber/seamless-darija-eng
+INFO     core.translation.translation_service:translation_service.py:251 Model AnasAber/seamless-darija-eng status: {'loaded': False, 'state': 'Loadable', 'compute_type': 'cpu', 'framework': 'transformers'}
+INFO     core.translation.translation_service:translation_service.py:261 Triggering model loading for AnasAber/seamless-darija-eng
+INFO     core.translation.translation_service:translation_service.py:213 Using API for model: AnasAber/seamless-darija-eng
+ERROR    core.translation.translation_service:translation_service.py:224 Translation error: 0
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for AnasAber/seamless-darija-eng (technical) with 'The model is being trained on the GPU server.': Translation failed validation checks
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: البيانات يتم معالجتها على الخادم
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: AnasAber/seamless-darija-eng
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: AnasAber/seamless-darija-eng
+INFO     core.translation.translation_service:translation_service.py:251 Model AnasAber/seamless-darija-eng status: {'loaded': False, 'state': 'Loadable', 'compute_type': 'cpu', 'framework': 'transformers'}
+INFO     core.translation.translation_service:translation_service.py:261 Triggering model loading for AnasAber/seamless-darija-eng
+INFO     core.translation.translation_service:translation_service.py:213 Using API for model: AnasAber/seamless-darija-eng
+ERROR    core.translation.translation_service:translation_service.py:224 Translation error: 0
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for AnasAber/seamless-darija-eng (technical) with 'البيانات يتم معالجتها على الخادم': Translation failed validation checks
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: 
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: AnasAber/seamless-darija-eng
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: AnasAber/seamless-darija-eng
+INFO     core.translation.translation_service:translation_service.py:251 Model AnasAber/seamless-darija-eng status: {'loaded': False, 'state': 'Loadable', 'compute_type': 'cpu', 'framework': 'transformers'}
+INFO     core.translation.translation_service:translation_service.py:261 Triggering model loading for AnasAber/seamless-darija-eng
+INFO     core.translation.translation_service:translation_service.py:213 Using API for model: AnasAber/seamless-darija-eng
+ERROR    core.translation.translation_service:translation_service.py:224 Translation error: 0
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for AnasAber/seamless-darija-eng (edge_case) with '': Translation failed validation checks
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: Hello! مرحبا
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: AnasAber/seamless-darija-eng
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: AnasAber/seamless-darija-eng
+INFO     core.translation.translation_service:translation_service.py:251 Model AnasAber/seamless-darija-eng status: {'loaded': False, 'state': 'Loadable', 'compute_type': 'cpu', 'framework': 'transformers'}
+INFO     core.translation.translation_service:translation_service.py:261 Triggering model loading for AnasAber/seamless-darija-eng
+INFO     core.translation.translation_service:translation_service.py:213 Using API for model: AnasAber/seamless-darija-eng
+ERROR    core.translation.translation_service:translation_service.py:224 Translation error: 0
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for AnasAber/seamless-darija-eng (edge_case) with 'Hello! مرحبا': Translation failed validation checks
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: 123 456 789
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: AnasAber/seamless-darija-eng
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: AnasAber/seamless-darija-eng
+INFO     core.translation.translation_service:translation_service.py:251 Model AnasAber/seamless-darija-eng status: {'loaded': False, 'state': 'Loadable', 'compute_type': 'cpu', 'framework': 'transformers'}
+INFO     core.translation.translation_service:translation_service.py:261 Triggering model loading for AnasAber/seamless-darija-eng
+INFO     core.translation.translation_service:translation_service.py:213 Using API for model: AnasAber/seamless-darija-eng
+ERROR    core.translation.translation_service:translation_service.py:224 Translation error: 0
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for AnasAber/seamless-darija-eng (edge_case) with '123 456 789': Translation failed validation checks
+INFO     tests.test_all_models_translation:test_all_models_translation.py:102 Testing model: AnasAber/nllb-enhanced-darija-eng_v1-1
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: Hello, how are you?
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: AnasAber/nllb-enhanced-darija-eng_v1-1
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: AnasAber/nllb-enhanced-darija-eng_v1-1
+WARNING  core.translation.translation_service:translation_service.py:160 Model AnasAber/nllb-enhanced-darija-eng_v1-1 is not ready trying next model
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for AnasAber/nllb-enhanced-darija-eng_v1-1 (basic) with 'Hello, how are you?': Translation failed validation checks
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: كيف حالك؟
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: AnasAber/nllb-enhanced-darija-eng_v1-1
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: AnasAber/nllb-enhanced-darija-eng_v1-1
+WARNING  core.translation.translation_service:translation_service.py:160 Model AnasAber/nllb-enhanced-darija-eng_v1-1 is not ready trying next model
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for AnasAber/nllb-enhanced-darija-eng_v1-1 (basic) with 'كيف حالك؟': Translation failed validation checks
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: I love Moroccan cuisine and traditional dishes.
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: AnasAber/nllb-enhanced-darija-eng_v1-1
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: AnasAber/nllb-enhanced-darija-eng_v1-1
+WARNING  core.translation.translation_service:translation_service.py:160 Model AnasAber/nllb-enhanced-darija-eng_v1-1 is not ready trying next model
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for AnasAber/nllb-enhanced-darija-eng_v1-1 (complex) with 'I love Moroccan cuisine and traditional dishes.': Translation failed validation checks
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: نتمنى لك يوما سعيدا وحياة مليئة بالسعادة
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: AnasAber/nllb-enhanced-darija-eng_v1-1
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: AnasAber/nllb-enhanced-darija-eng_v1-1
+WARNING  core.translation.translation_service:translation_service.py:160 Model AnasAber/nllb-enhanced-darija-eng_v1-1 is not ready trying next model
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for AnasAber/nllb-enhanced-darija-eng_v1-1 (complex) with 'نتمنى لك يوما سعيدا وحياة مليئة بالسعادة': Translation failed validation checks
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: The model is being trained on the GPU server.
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: AnasAber/nllb-enhanced-darija-eng_v1-1
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: AnasAber/nllb-enhanced-darija-eng_v1-1
+WARNING  core.translation.translation_service:translation_service.py:160 Model AnasAber/nllb-enhanced-darija-eng_v1-1 is not ready trying next model
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for AnasAber/nllb-enhanced-darija-eng_v1-1 (technical) with 'The model is being trained on the GPU server.': Translation failed validation checks
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: البيانات يتم معالجتها على الخادم
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: AnasAber/nllb-enhanced-darija-eng_v1-1
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: AnasAber/nllb-enhanced-darija-eng_v1-1
+WARNING  core.translation.translation_service:translation_service.py:160 Model AnasAber/nllb-enhanced-darija-eng_v1-1 is not ready trying next model
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for AnasAber/nllb-enhanced-darija-eng_v1-1 (technical) with 'البيانات يتم معالجتها على الخادم': Translation failed validation checks
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: 
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: AnasAber/nllb-enhanced-darija-eng_v1-1
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: AnasAber/nllb-enhanced-darija-eng_v1-1
+WARNING  core.translation.translation_service:translation_service.py:160 Model AnasAber/nllb-enhanced-darija-eng_v1-1 is not ready trying next model
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for AnasAber/nllb-enhanced-darija-eng_v1-1 (edge_case) with '': Translation failed validation checks
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: Hello! مرحبا
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: AnasAber/nllb-enhanced-darija-eng_v1-1
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: AnasAber/nllb-enhanced-darija-eng_v1-1
+WARNING  core.translation.translation_service:translation_service.py:160 Model AnasAber/nllb-enhanced-darija-eng_v1-1 is not ready trying next model
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for AnasAber/nllb-enhanced-darija-eng_v1-1 (edge_case) with 'Hello! مرحبا': Translation failed validation checks
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: 123 456 789
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: AnasAber/nllb-enhanced-darija-eng_v1-1
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: AnasAber/nllb-enhanced-darija-eng_v1-1
+WARNING  core.translation.translation_service:translation_service.py:160 Model AnasAber/nllb-enhanced-darija-eng_v1-1 is not ready trying next model
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for AnasAber/nllb-enhanced-darija-eng_v1-1 (edge_case) with '123 456 789': Translation failed validation checks
+INFO     tests.test_all_models_translation:test_all_models_translation.py:102 Testing model: imomayiz/darija_englishV2.1
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: Hello, how are you?
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: imomayiz/darija_englishV2.1
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: imomayiz/darija_englishV2.1
+WARNING  core.translation.translation_service:translation_service.py:160 Model imomayiz/darija_englishV2.1 is not ready trying next model
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for imomayiz/darija_englishV2.1 (basic) with 'Hello, how are you?': Translation failed validation checks
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: كيف حالك؟
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: imomayiz/darija_englishV2.1
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: imomayiz/darija_englishV2.1
+WARNING  core.translation.translation_service:translation_service.py:160 Model imomayiz/darija_englishV2.1 is not ready trying next model
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for imomayiz/darija_englishV2.1 (basic) with 'كيف حالك؟': Translation failed validation checks
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: I love Moroccan cuisine and traditional dishes.
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: imomayiz/darija_englishV2.1
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: imomayiz/darija_englishV2.1
+WARNING  core.translation.translation_service:translation_service.py:160 Model imomayiz/darija_englishV2.1 is not ready trying next model
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for imomayiz/darija_englishV2.1 (complex) with 'I love Moroccan cuisine and traditional dishes.': Translation failed validation checks
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: نتمنى لك يوما سعيدا وحياة مليئة بالسعادة
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: imomayiz/darija_englishV2.1
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: imomayiz/darija_englishV2.1
+WARNING  core.translation.translation_service:translation_service.py:160 Model imomayiz/darija_englishV2.1 is not ready trying next model
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for imomayiz/darija_englishV2.1 (complex) with 'نتمنى لك يوما سعيدا وحياة مليئة بالسعادة': Translation failed validation checks
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: The model is being trained on the GPU server.
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: imomayiz/darija_englishV2.1
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: imomayiz/darija_englishV2.1
+WARNING  core.translation.translation_service:translation_service.py:160 Model imomayiz/darija_englishV2.1 is not ready trying next model
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for imomayiz/darija_englishV2.1 (technical) with 'The model is being trained on the GPU server.': Translation failed validation checks
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: البيانات يتم معالجتها على الخادم
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: imomayiz/darija_englishV2.1
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: imomayiz/darija_englishV2.1
+WARNING  core.translation.translation_service:translation_service.py:160 Model imomayiz/darija_englishV2.1 is not ready trying next model
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for imomayiz/darija_englishV2.1 (technical) with 'البيانات يتم معالجتها على الخادم': Translation failed validation checks
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: 
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: imomayiz/darija_englishV2.1
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: imomayiz/darija_englishV2.1
+WARNING  core.translation.translation_service:translation_service.py:160 Model imomayiz/darija_englishV2.1 is not ready trying next model
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for imomayiz/darija_englishV2.1 (edge_case) with '': Translation failed validation checks
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: Hello! مرحبا
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: imomayiz/darija_englishV2.1
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: imomayiz/darija_englishV2.1
+WARNING  core.translation.translation_service:translation_service.py:160 Model imomayiz/darija_englishV2.1 is not ready trying next model
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for imomayiz/darija_englishV2.1 (edge_case) with 'Hello! مرحبا': Translation failed validation checks
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: 123 456 789
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: imomayiz/darija_englishV2.1
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: imomayiz/darija_englishV2.1
+WARNING  core.translation.translation_service:translation_service.py:160 Model imomayiz/darija_englishV2.1 is not ready trying next model
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for imomayiz/darija_englishV2.1 (edge_case) with '123 456 789': Translation failed validation checks
+INFO     tests.test_all_models_translation:test_all_models_translation.py:102 Testing model: lachkarsalim/LatinDarija_English-v2
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: Hello, how are you?
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: lachkarsalim/LatinDarija_English-v2
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: lachkarsalim/LatinDarija_English-v2
+INFO     core.translation.translation_service:translation_service.py:251 Model lachkarsalim/LatinDarija_English-v2 status: {'loaded': False, 'state': 'Loadable', 'compute_type': 'cpu', 'framework': 'transformers'}
+INFO     core.translation.translation_service:translation_service.py:261 Triggering model loading for lachkarsalim/LatinDarija_English-v2
+INFO     core.translation.translation_service:translation_service.py:213 Using API for model: lachkarsalim/LatinDarija_English-v2
+ERROR    core.translation.translation_service:translation_service.py:224 Translation error: 0
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for lachkarsalim/LatinDarija_English-v2 (basic) with 'Hello, how are you?': Translation failed validation checks
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: كيف حالك؟
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: lachkarsalim/LatinDarija_English-v2
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: lachkarsalim/LatinDarija_English-v2
+INFO     core.translation.translation_service:translation_service.py:251 Model lachkarsalim/LatinDarija_English-v2 status: {'loaded': False, 'state': 'Loadable', 'compute_type': 'cpu', 'framework': 'transformers'}
+INFO     core.translation.translation_service:translation_service.py:261 Triggering model loading for lachkarsalim/LatinDarija_English-v2
+INFO     core.translation.translation_service:translation_service.py:213 Using API for model: lachkarsalim/LatinDarija_English-v2
+ERROR    core.translation.translation_service:translation_service.py:224 Translation error: 0
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for lachkarsalim/LatinDarija_English-v2 (basic) with 'كيف حالك؟': Translation failed validation checks
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: I love Moroccan cuisine and traditional dishes.
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: lachkarsalim/LatinDarija_English-v2
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: lachkarsalim/LatinDarija_English-v2
+INFO     core.translation.translation_service:translation_service.py:251 Model lachkarsalim/LatinDarija_English-v2 status: {'loaded': False, 'state': 'Loadable', 'compute_type': 'cpu', 'framework': 'transformers'}
+INFO     core.translation.translation_service:translation_service.py:261 Triggering model loading for lachkarsalim/LatinDarija_English-v2
+INFO     core.translation.translation_service:translation_service.py:213 Using API for model: lachkarsalim/LatinDarija_English-v2
+ERROR    core.translation.translation_service:translation_service.py:224 Translation error: 0
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for lachkarsalim/LatinDarija_English-v2 (complex) with 'I love Moroccan cuisine and traditional dishes.': Translation failed validation checks
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: نتمنى لك يوما سعيدا وحياة مليئة بالسعادة
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: lachkarsalim/LatinDarija_English-v2
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: lachkarsalim/LatinDarija_English-v2
+INFO     core.translation.translation_service:translation_service.py:251 Model lachkarsalim/LatinDarija_English-v2 status: {'loaded': False, 'state': 'Loadable', 'compute_type': 'cpu', 'framework': 'transformers'}
+INFO     core.translation.translation_service:translation_service.py:261 Triggering model loading for lachkarsalim/LatinDarija_English-v2
+INFO     core.translation.translation_service:translation_service.py:213 Using API for model: lachkarsalim/LatinDarija_English-v2
+ERROR    core.translation.translation_service:translation_service.py:224 Translation error: 0
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for lachkarsalim/LatinDarija_English-v2 (complex) with 'نتمنى لك يوما سعيدا وحياة مليئة بالسعادة': Translation failed validation checks
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: The model is being trained on the GPU server.
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: lachkarsalim/LatinDarija_English-v2
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: lachkarsalim/LatinDarija_English-v2
+INFO     core.translation.translation_service:translation_service.py:251 Model lachkarsalim/LatinDarija_English-v2 status: {'loaded': False, 'state': 'Loadable', 'compute_type': 'cpu', 'framework': 'transformers'}
+INFO     core.translation.translation_service:translation_service.py:261 Triggering model loading for lachkarsalim/LatinDarija_English-v2
+INFO     core.translation.translation_service:translation_service.py:213 Using API for model: lachkarsalim/LatinDarija_English-v2
+ERROR    core.translation.translation_service:translation_service.py:224 Translation error: 0
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for lachkarsalim/LatinDarija_English-v2 (technical) with 'The model is being trained on the GPU server.': Translation failed validation checks
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: البيانات يتم معالجتها على الخادم
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: lachkarsalim/LatinDarija_English-v2
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: lachkarsalim/LatinDarija_English-v2
+INFO     core.translation.translation_service:translation_service.py:251 Model lachkarsalim/LatinDarija_English-v2 status: {'loaded': False, 'state': 'Loadable', 'compute_type': 'cpu', 'framework': 'transformers'}
+INFO     core.translation.translation_service:translation_service.py:261 Triggering model loading for lachkarsalim/LatinDarija_English-v2
+INFO     core.translation.translation_service:translation_service.py:213 Using API for model: lachkarsalim/LatinDarija_English-v2
+ERROR    core.translation.translation_service:translation_service.py:224 Translation error: 0
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for lachkarsalim/LatinDarija_English-v2 (technical) with 'البيانات يتم معالجتها على الخادم': Translation failed validation checks
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: 
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: lachkarsalim/LatinDarija_English-v2
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: lachkarsalim/LatinDarija_English-v2
+INFO     core.translation.translation_service:translation_service.py:251 Model lachkarsalim/LatinDarija_English-v2 status: {'loaded': False, 'state': 'Loadable', 'compute_type': 'cpu', 'framework': 'transformers'}
+INFO     core.translation.translation_service:translation_service.py:261 Triggering model loading for lachkarsalim/LatinDarija_English-v2
+INFO     core.translation.translation_service:translation_service.py:213 Using API for model: lachkarsalim/LatinDarija_English-v2
+ERROR    core.translation.translation_service:translation_service.py:224 Translation error: 0
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for lachkarsalim/LatinDarija_English-v2 (edge_case) with '': Translation failed validation checks
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: Hello! مرحبا
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: lachkarsalim/LatinDarija_English-v2
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: lachkarsalim/LatinDarija_English-v2
+INFO     core.translation.translation_service:translation_service.py:251 Model lachkarsalim/LatinDarija_English-v2 status: {'loaded': False, 'state': 'Loadable', 'compute_type': 'cpu', 'framework': 'transformers'}
+INFO     core.translation.translation_service:translation_service.py:261 Triggering model loading for lachkarsalim/LatinDarija_English-v2
+INFO     core.translation.translation_service:translation_service.py:213 Using API for model: lachkarsalim/LatinDarija_English-v2
+ERROR    core.translation.translation_service:translation_service.py:224 Translation error: 0
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for lachkarsalim/LatinDarija_English-v2 (edge_case) with 'Hello! مرحبا': Translation failed validation checks
+INFO     core.translation.translation_service:translation_service.py:148 Translating text: 123 456 789
+INFO     core.translation.translation_service:translation_service.py:149 Translating text using model: lachkarsalim/LatinDarija_English-v2
+INFO     core.translation.translation_service:translation_service.py:158 Checking status for model: lachkarsalim/LatinDarija_English-v2
+INFO     core.translation.translation_service:translation_service.py:251 Model lachkarsalim/LatinDarija_English-v2 status: {'loaded': False, 'state': 'Loadable', 'compute_type': 'cpu', 'framework': 'transformers'}
+INFO     core.translation.translation_service:translation_service.py:261 Triggering model loading for lachkarsalim/LatinDarija_English-v2
+INFO     core.translation.translation_service:translation_service.py:213 Using API for model: lachkarsalim/LatinDarija_English-v2
+ERROR    core.translation.translation_service:translation_service.py:224 Translation error: 0
+ERROR    tests.test_all_models_translation:test_all_models_translation.py:170 Translation failed for lachkarsalim/LatinDarija_English-v2 (edge_case) with '123 456 789': Translation failed validation checks
+PASSED                                                                   [100%]
+
+=============================== warnings summary ===============================
+../../../../../../../../../home/mrdbo/miniconda3/envs/dataset_test_deploy_ec2/lib/python3.11/site-packages/transformers/utils/hub.py:128
+  /home/mrdbo/miniconda3/envs/dataset_test_deploy_ec2/lib/python3.11/site-packages/transformers/utils/hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+    warnings.warn(
+
+../../../../../../../../../home/mrdbo/miniconda3/envs/dataset_test_deploy_ec2/lib/python3.11/site-packages/accelerate/utils/other.py:220
+  /home/mrdbo/miniconda3/envs/dataset_test_deploy_ec2/lib/python3.11/site-packages/accelerate/utils/other.py:220: DeprecationWarning: numpy.core is deprecated and has been renamed to numpy._core. The numpy._core namespace contains private NumPy internals and its use is discouraged, as NumPy internals can change without warning in any release. In practice, most real-world usage of numpy.core is to access functionality in the public NumPy API. If that is the case, use the public NumPy API. If not, you are using NumPy internals. If you would still like to access an internal attribute, use numpy._core.multiarray.
+    np.core.multiarray._reconstruct,
+
+tests/test_all_models_translation.py::test_all_models
+  /home/mrdbo/miniconda3/envs/dataset_test_deploy_ec2/lib/python3.11/site-packages/_pytest/python.py:163: PytestReturnNotNoneWarning: Expected None, but tests/test_all_models_translation.py::test_all_models returned {'environment': 'local', 'timestamp': '2024-12-27 21:01:33', 'models': {'AnasAber/seamless-darija-eng': {'test_cases': [{'status': 'error', 'category': 'basic', 'original': 'Hello, how are you?', 'error_message': 'Translation failed validation checks', 'memory_usage': 22.480234652103544}, {'status': 'error', 'category': 'basic', 'original': 'كيف حالك؟', 'error_message': 'Translation failed validation checks', 'memory_usage': 22.287695956991254}, {'status': 'error', 'category': 'complex', 'original': 'I love Moroccan cuisine and traditional dishes.', 'error_message': 'Translation failed validation checks', 'memory_usage': 22.287695956991254}, {'status': 'error', 'category': 'complex', 'original': 'نتمنى لك يوما سعيدا وحياة مليئة بالسعادة', 'error_message': 'Translation failed validation checks', 'memory_usage': 22.287695956991254}, {'status': 'error', 'category': 'technical', 'original': 'The model is being trained on the GPU server.', 'error_message': 'Translation failed validation checks', 'memory_usage': 22.077128914835303}, {'status': 'error', 'category': 'technical', 'original': 'البيانات يتم معالجتها على الخادم', 'error_message': 'Translation failed validation checks', 'memory_usage': 22.077128914835303}, {'status': 'error', 'category': 'edge_case', 'original': '', 'error_message': 'Translation failed validation checks', 'memory_usage': 21.959134396263067}, {'status': 'error', 'category': 'edge_case', 'original': 'Hello! مرحبا', 'error_message': 'Translation failed validation checks', 'memory_usage': 21.947790717224365}, {'status': 'error', 'category': 'edge_case', 'original': '123 456 789', 'error_message': 'Translation failed validation checks', 'memory_usage': 21.947790717224365}], 'performance': {'avg_time': 0.0, 'success_rate': 0.0, 'memory_peak': 22.480234652103544}}, 'AnasAber/nllb-enhanced-darija-eng_v1-1': {'test_cases': [{'status': 'error', 'category': 'basic', 'original': 'Hello, how are you?', 'error_message': 'Translation failed validation checks', 'memory_usage': 21.947790717224365}, {'status': 'error', 'category': 'basic', 'original': 'كيف حالك؟', 'error_message': 'Translation failed validation checks', 'memory_usage': 21.947790717224365}, {'status': 'error', 'category': 'complex', 'original': 'I love Moroccan cuisine and traditional dishes.', 'error_message': 'Translation failed validation checks', 'memory_usage': 21.946170191647408}, {'status': 'error', 'category': 'complex', 'original': 'نتمنى لك يوما سعيدا وحياة مليئة بالسعادة', 'error_message': 'Translation failed validation checks', 'memory_usage': 21.946170191647408}, {'status': 'error', 'category': 'technical', 'original': 'The model is being trained on the GPU server.', 'error_message': 'Translation failed validation checks', 'memory_usage': 21.946170191647408}, {'status': 'error', 'category': 'technical', 'original': 'البيانات يتم معالجتها على الخادم', 'error_message': 'Translation failed validation checks', 'memory_usage': 21.946170191647408}, {'status': 'error', 'category': 'edge_case', 'original': '', 'error_message': 'Translation failed validation checks', 'memory_usage': 21.946170191647408}, {'status': 'error', 'category': 'edge_case', 'original': 'Hello! مرحبا', 'error_message': 'Translation failed validation checks', 'memory_usage': 21.946170191647408}, {'status': 'error', 'category': 'edge_case', 'original': '123 456 789', 'error_message': 'Translation failed validation checks', 'memory_usage': 21.946170191647408}], 'performance': {'avg_time': 0.0, 'success_rate': 0.0, 'memory_peak': 21.947790717224365}}, 'imomayiz/darija_englishV2.1': {'test_cases': [{'status': 'error', 'category': 'basic', 'original': 'Hello, how are you?', 'error_message': 'Translation failed validation checks', 'memory_usage': 21.946170191647408}, {'status': 'error', 'category': 'basic', 'original': 'كيف حالك؟', 'error_message': 'Translation failed validation checks', 'memory_usage': 21.946170191647408}, {'status': 'error', 'category': 'complex', 'original': 'I love Moroccan cuisine and traditional dishes.', 'error_message': 'Translation failed validation checks', 'memory_usage': 21.946170191647408}, {'status': 'error', 'category': 'complex', 'original': 'نتمنى لك يوما سعيدا وحياة مليئة بالسعادة', 'error_message': 'Translation failed validation checks', 'memory_usage': 21.946170191647408}, {'status': 'error', 'category': 'technical', 'original': 'The model is being trained on the GPU server.', 'error_message': 'Translation failed validation checks', 'memory_usage': 21.946170191647408}, {'status': 'error', 'category': 'technical', 'original': 'البيانات يتم معالجتها على الخادم', 'error_message': 'Translation failed validation checks', 'memory_usage': 21.946170191647408}, {'status': 'error', 'category': 'edge_case', 'original': '', 'error_message': 'Translation failed validation checks', 'memory_usage': 21.946170191647408}, {'status': 'error', 'category': 'edge_case', 'original': 'Hello! مرحبا', 'error_message': 'Translation failed validation checks', 'memory_usage': 21.946170191647408}, {'status': 'error', 'category': 'edge_case', 'original': '123 456 789', 'error_message': 'Translation failed validation checks', 'memory_usage': 21.946170191647408}], 'performance': {'avg_time': 0.0, 'success_rate': 0.0, 'memory_peak': 21.946170191647408}}, 'lachkarsalim/LatinDarija_English-v2': {'test_cases': [{'status': 'error', 'category': 'basic', 'original': 'Hello, how are you?', 'error_message': 'Translation failed validation checks', 'memory_usage': 21.946170191647408}, {'status': 'error', 'category': 'basic', 'original': 'كيف حالك؟', 'error_message': 'Translation failed validation checks', 'memory_usage': 21.714941448385247}, {'status': 'error', 'category': 'complex', 'original': 'I love Moroccan cuisine and traditional dishes.', 'error_message': 'Translation failed validation checks', 'memory_usage': 21.714941448385247}, {'status': 'error', 'category': 'complex', 'original': 'نتمنى لك يوما سعيدا وحياة مليئة بالسعادة', 'error_message': 'Translation failed validation checks', 'memory_usage': 21.721626116390198}, {'status': 'error', 'category': 'technical', 'original': 'The model is being trained on the GPU server.', 'error_message': 'Translation failed validation checks', 'memory_usage': 21.721626116390198}, {'status': 'error', 'category': 'technical', 'original': 'البيانات يتم معالجتها على الخادم', 'error_message': 'Translation failed validation checks', 'memory_usage': 21.721626116390198}, {'status': 'error', 'category': 'edge_case', 'original': '', 'error_message': 'Translation failed validation checks', 'memory_usage': 21.721626116390198}, {'status': 'error', 'category': 'edge_case', 'original': 'Hello! مرحبا', 'error_message': 'Translation failed validation checks', 'memory_usage': 21.721626116390198}, {'status': 'error', 'category': 'edge_case', 'original': '123 456 789', 'error_message': 'Translation failed validation checks', 'memory_usage': 21.721626116390198}], 'performance': {'avg_time': 0.0, 'success_rate': 0.0, 'memory_peak': 21.946170191647408}}}, 'system_info': {'memory_usage': [], 'gpu_usage': [], 'total_time': 26.9507315158844}}, which will be an error in a future version of pytest.  Did you mean to use `assert` instead of `return`?
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=================== 1 passed, 3 warnings in 93.49s (0:01:33) ===================
+
+2024-12-27 21:02:03,439 - INFO - Test execution completed in 96.9 seconds
+2024-12-27 21:02:03,440 - INFO - Results saved to logs/test_results_20241227_210203.json

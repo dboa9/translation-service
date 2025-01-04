@@ -1,0 +1,36 @@
+translation_models:
+  AnasAber/seamless-darija-eng:
+    direction: bidirectional
+    lang_codes:
+      source: eng
+      target: ary
+    model_type: seamless
+    description: Primary model for English-Darija translation
+  BAKKALIAYOUB/DarijaTranslation-V1:
+    direction: bidirectional
+    lang_codes:
+      source: en
+      target: dar
+    model_type: marian
+    description: English to Darija translation model
+  lachkarsalim/LatinDarija_English-v2:
+    direction: bidirectional
+    lang_codes:
+      source: dar
+      target: en
+    model_type: marian
+    description: Latin Darija to English translation model
+  imomayiz/darija_englishV2.1:
+    direction: bidirectional
+    lang_codes:
+      source: dar
+      target: en
+    model_type: marian
+    description: Darija to English translation model
+  AnasAber/nllb-enhanced-darija-eng_v1-1:
+    direction: bidirectional
+    lang_codes:
+      source: en
+      target: dar
+    model_type: nllb
+    description: Enhanced English to Darija translation model

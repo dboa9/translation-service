@@ -1,0 +1,23 @@
+{
+  "timestamp": "2024-11-11 09:05:03",
+  "system_info": {
+    "python_version": "3.11.10 (main, Oct  3 2024, 07:29:13) [GCC 11.2.0]",
+    "memory_total_gb": 3.7663955688476562,
+    "disk_free_gb": 938.8411407470703
+  },
+  "tests": {},
+  "loading_metrics": {
+    "imomayiz/darija-english/sentences": {
+      "error": "Dataset imomayiz/darija-english failed validation"
+    },
+    "atlasia/darija_english/web_data": {
+      "error": "Dataset atlasia/darija_english failed validation"
+    },
+    "M-A-D/DarijaBridge/default": {
+      "error": "Dataset M-A-D/DarijaBridge failed validation"
+    },
+    "BounharAbdelaziz/English-to-Moroccan-Darija/default": {
+      "error": "Dataset BounharAbdelaziz/English-to-Moroccan-Darija failed validation"
+    }
+  }
+}

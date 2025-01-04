@@ -1,0 +1,24 @@
+{
+    "thresholds": {
+      "cpu_percent": 80,
+      "memory_percent": 85,
+      "disk_percent": 90
+    },
+    "notification": {
+      "email": {
+        "enabled": true,
+        "smtp_server": "smtp.gmail.com",
+        "smtp_port": 587,
+        "sender": "deebeeec2miscdev@gmail.com",
+        "recipients": ["daniel@alchemy9.co.uk"]
+      },
+      "slack": {
+        "enabled": false,
+        "webhook_url": ""
+      },
+      "discord": {
+        "enabled": false,
+        "webhook_url": ""
+      }
+    }
+  }

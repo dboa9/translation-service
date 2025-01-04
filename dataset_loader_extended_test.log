@@ -1,0 +1,44 @@
+2024-12-25 18:37:44,708 - INFO - Starting extended dataset loader test
+2024-12-25 18:37:48,958 - INFO - Successfully loaded atlasia/darija_english/web_data
+2024-12-25 18:37:50,993 - INFO - Successfully loaded atlasia/darija_english/comments
+2024-12-25 18:37:54,903 - INFO - Successfully loaded atlasia/darija_english/stories
+2024-12-25 18:37:56,757 - INFO - Successfully loaded atlasia/darija_english/doda
+2024-12-25 18:37:58,178 - INFO - Successfully loaded atlasia/darija_english/transliteration
+2024-12-25 18:38:01,701 - INFO - Successfully loaded imomayiz/darija-english/sentences
+2024-12-25 18:38:01,707 - ERROR - Arrow file not found for submissions dataset: Arrow file not found in the cache directory.
+2024-12-25 18:38:34,939 - INFO - Successfully loaded M-A-D/DarijaBridge
+2024-12-25 18:38:37,843 - INFO - Successfully loaded BounharAbdelaziz/English-to-Moroccan-Darija
+2024-12-25 18:38:37,843 - INFO - Successfully loaded 8 datasets
+2024-12-25 18:38:40,786 - INFO - Validating dataset: atlasia/darija_english/web_data
+2024-12-25 18:38:40,787 - INFO - Dataset atlasia/darija_english/web_data split train has 3000 examples
+2024-12-25 18:38:40,802 - INFO - First example from atlasia/darija_english/web_data split train:
+2024-12-25 18:38:40,803 - INFO - {'english': "I swear to God, you don't know me until you're about to be executed.", 'darija': 'ويقول لي راه والله وما عتارفتي تا غادي تعدم', 'source': 'WEB'}
+2024-12-25 18:38:40,803 - INFO - Validating dataset: atlasia/darija_english/comments
+2024-12-25 18:38:40,804 - INFO - Dataset atlasia/darija_english/comments split train has 10000 examples
+2024-12-25 18:38:40,842 - INFO - First example from atlasia/darija_english/comments split train:
+2024-12-25 18:38:40,858 - INFO - {'id': 19824, 'english': 'Girls, I put the drink that got rid of my anemia and saved me from severe anemia, I swear girls, it brought my soul back to life and my health got its blood back. I took a picture of my hands, they turned red. The drink is in my channel, try it.', 'darija': 'ﺍﻟﺒﻨﺎﺕ ﺣﻄﻴﺖ ﺍﻟﻤﺸﺮﻭﺏ ﻟﻲ ﻃﻠﻌﻠﻲ ﺍﻟﺨﺰﺍﻥ ﻭﻧﻘﺪﻧﻲ ﻣﻦ ﻓﻘﺮ ﺍﻟﺪﻡ ﺍﻟﺤﺎﺩ ﻭﷲ ﺃﻟﺒﻨﺎﺕ ﺍﻟﻰ ﺭﺩ ﻓﻴﺎ ﺍﻟﺮﻭﺡ ﻭﺻﺤﺘﻲ ﺭﺟﻊ ﻓﻴﻬﺎ ﺍﻟﺪﻡ . ﺭﺍﻩ ﺻﻮﺭﺕ ﻳﺪﻱ ﻛﻴﻮﻻﺕ ﺑﺎﻟﺤﻤﻮﺭﻳﺔ . ﺍﻟﻤﺸﺮﻭﺏ ﻓﻘﻨﺎﺗﻲ ﺟﺮﺑﻮﻩ', 'source': 'COMMENTS'}
+2024-12-25 18:38:40,871 - INFO - Validating dataset: atlasia/darija_english/stories
+2024-12-25 18:38:40,871 - INFO - Dataset atlasia/darija_english/stories split train has 3000 examples
+2024-12-25 18:38:40,886 - INFO - First example from atlasia/darija_english/stories split train:
+2024-12-25 18:38:40,887 - INFO - {'ChapterName': 'آلاء و المنحوس الجزء 43', 'ChapterLink': 'https://www.9esa.com/2018/06/aala2-walman7ous-43.html', 'Author': 'غزلان ش.', 'Tags': 2018, 'darija': '...الاء فالكوزينة كاتصايب اتاي...مرونة و تهز هادي و تحط هاادي...الاء نااري فمي خاص تحك عليه شييلي على هاد الفعلة...عالله يجي زوين قادت البراد فالصينية...و خرجات كاتعورج...حطاتها قدامو و جلسات حداه...كان خو ملاهي مع التلفازة...غير شافها و حول تركيزو معاها زين العابدين على سلامتنا...الاء هههه هااك كب انت دور الصينية لجهتو و هو كايشوف فيها بنصف عين ضاحك...و مع اول ما خرج اتاي من البراد للكاس بااان لونو الغامق...و بدا يتهز كايضحك...الاء ماتضحكش ازيين العابدين دوز زين العابدين يدو على فمو كاتم ضحكو...كب و مد ليها...و عاد خدا كاسو...ماشربااتش حتى رشف رشفتو الاولى و هي كاتسنى رأيو لي اكييييد غايغييظها...شاف فالكاس بعدما شرب منو و نقل نظرو ليها.. زين العابدين راجلك شلح ماشي صحراوي... هههه درتيه تقيييل... و حلو شوية نزلو كتاف الاء بخيبة امل', 'english': "Alaa was in the kitchen preparing tea... moving gracefully and picking this up and putting that down... Alaa, my throat needs to be scratched, remove this act... God willing, it will come out well, she put the teapot on the tray... and came out limping... she put it in front of him and sat next to him... he was distracted by the TV... as soon as he saw her, he turned his focus to her Zine El Abidine, to our safety... Alaa haha here you go, pour it yourself He turned the tray towards him and he was looking at it with half an eye, laughing... and as soon as the tea came out of the teapot into the glass, its dark color appeared... and he started to get up laughing... Alaa don't laugh Zine El Abidine Zine El Abidine put his hand over his mouth, suppressing his laughter... he poured and handed it to her... and then took his glass... she didn't drink until he took his first sip and she was waiting for his opinion which would definitely annoy her... he looked at the glass after drinking from it and shifted his gaze to her.. Zine El Abidine, man, it's not Sahrawi... haha you made it heavy... and a little sweet Alaa's shoulders dropped in disappointment", 'chunk_id': 0, 'source': 'https://huggingface.co/datasets/M-A-D/Mixed-Arabic-Datasets-Repo/viewer/Ary--Ali-C137--Darija-Stories-Dataset'}
+2024-12-25 18:38:40,888 - INFO - Validating dataset: atlasia/darija_english/doda
+2024-12-25 18:38:40,888 - INFO - Dataset atlasia/darija_english/doda split train has 45103 examples
+2024-12-25 18:38:40,889 - INFO - First example from atlasia/darija_english/doda split train:
+2024-12-25 18:38:40,890 - INFO - {'id': 'doda_0', 'darija': 'homa mkhbbyin chi haja, ana mti99en!', 'en': "They're hiding something, I'm sure!"}
+2024-12-25 18:38:40,890 - INFO - Validating dataset: atlasia/darija_english/transliteration
+2024-12-25 18:38:40,891 - INFO - Dataset atlasia/darija_english/transliteration split train has 67186 examples
+2024-12-25 18:38:40,892 - INFO - First example from atlasia/darija_english/transliteration split train:
+2024-12-25 18:38:40,892 - INFO - {'darija_arabizi': '8chich', 'darija_arabic': 'هشيش'}
+2024-12-25 18:38:40,893 - INFO - Validating dataset: imomayiz/darija-english/sentences
+2024-12-25 18:38:40,894 - INFO - Dataset imomayiz/darija-english/sentences split sentences has 87785 examples
+2024-12-25 18:38:40,895 - INFO - First example from imomayiz/darija-english/sentences split sentences:
+2024-12-25 18:38:40,896 - INFO - {'darija': 'homa mkhbbyin chi haja, ana mti99en!', 'eng': "They're hiding something, I'm sure!", 'darija_ar': 'هوما مخبّيين شي حاجة, أنا متيقّن!'}
+2024-12-25 18:38:40,896 - INFO - Validating dataset: M-A-D/DarijaBridge
+2024-12-25 18:38:40,897 - INFO - Dataset M-A-D/DarijaBridge split train has 1235091 examples
+2024-12-25 18:38:40,901 - INFO - First example from M-A-D/DarijaBridge split train:
+2024-12-25 18:38:40,901 - INFO - {'sentence': 'hhhhhhhhhhhhhhhhhhhhhh ana ga3ma sma3tt ach kant kat9oll kanrakazz ghir m3a zineb oyassmin ochirineجزيرة بوين هي رحلة نهارية مشهورة أو رحلة في الويكاند كيمكن لك تدير التجديف بالكاياك وتمشي لمسافات طويلة وفيها المتاجر والمطاعم وبزاف ديال الحوايج الأخرين.', 'translation': None, 'translated': False, 'corrected': False, 'correction': None, 'quality': 0, 'metadata': None}
+2024-12-25 18:38:40,902 - INFO - Validating dataset: BounharAbdelaziz/English-to-Moroccan-Darija
+2024-12-25 18:38:40,903 - INFO - Dataset BounharAbdelaziz/English-to-Moroccan-Darija split train has 16089 examples
+2024-12-25 18:38:40,904 - INFO - First example from BounharAbdelaziz/English-to-Moroccan-Darija split train:
+2024-12-25 18:38:40,905 - INFO - {'english': 'He [Wales] basically lied to us from the start. First, by acting as if this was for legal reasons. Second, by pretending he was listening to us, right up to his art deletion.\n', 'darija': 'كذب ويلز علينا بشكل أساسي من الأول. أولاً منين تصرف بحال يلا كان هاذشي لأسباب قانونية. ومن بعد حيث تظاهر بأنه كان كيسمع لينا، وحتى الحذف دياله الفني.', 'includes_arabizi': False}
+2024-12-25 18:38:40,906 - INFO - All datasets loaded and validated successfully

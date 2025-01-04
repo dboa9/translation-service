@@ -1,0 +1,46 @@
+{
+    "description": "",
+    "citation": "",
+    "homepage": "",
+    "license": "",
+    "features": {
+        "english": {
+            "dtype": "string",
+            "_type": "Value"
+        },
+        "darija": {
+            "dtype": "string",
+            "_type": "Value"
+        },
+        "includes_arabizi": {
+            "dtype": "bool",
+            "_type": "Value"
+        }
+    },
+    "builder_name": "parquet",
+    "dataset_name": "english-to-moroccan-darija",
+    "config_name": "default",
+    "version": {
+        "version_str": "0.0.0",
+        "major": 0,
+        "minor": 0,
+        "patch": 0
+    },
+    "splits": {
+        "train": {
+            "name": "train",
+            "num_bytes": 2898935,
+            "num_examples": 16089,
+            "dataset_name": "english-to-moroccan-darija"
+        }
+    },
+    "download_checksums": {
+        "hf://datasets/BounharAbdelaziz/English-to-Moroccan-Darija@d9ab9c0f7c94e6b9ed8b8201df83b97aec387dd0/data/train-00000-of-00001.parquet": {
+            "num_bytes": 1704472,
+            "checksum": null
+        }
+    },
+    "download_size": 1704472,
+    "dataset_size": 2898935,
+    "size_in_bytes": 4603407
+}

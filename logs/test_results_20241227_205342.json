@@ -1,0 +1,22 @@
+{
+  "timestamp": "2024-12-27T20:53:40.967902",
+  "environment": "local",
+  "resources": [
+    {
+      "timestamp": 0.004216194152832031,
+      "cpu_percent": 0.0,
+      "memory_percent": 0.38760946143858105,
+      "memory_mb": 14.94921875
+    },
+    {
+      "timestamp": 1.0050864219665527,
+      "cpu_percent": 0.0,
+      "memory_percent": 0.38760946143858105,
+      "memory_mb": 14.94921875
+    }
+  ],
+  "status": "failed",
+  "duration": 2.0059094429016113,
+  "errors": [],
+  "return_code": 2
+}

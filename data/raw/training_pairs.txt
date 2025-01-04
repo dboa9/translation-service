@@ -1,0 +1,15 @@
+Hello, how are you?	كيف حالك
+I love Morocco	أنا نحب المغرب
+What's your name?	شنو سميتك
+Good morning	صباح الخير
+Thank you very much	شكرا بزاف
+Welcome	مرحبا بيك
+How old are you?	شحال فعمرك
+Where are you from?	منين نتي
+I don't understand	ما فهمتش
+Please speak slowly	عفاك هضر بشوية
+The weather is nice today	الجو زوين اليوم
+I'm learning Darija	كنتعلم الدارجة
+Do you speak English?	واش كتهضر بالإنجليزية
+I'm hungry	أنا جيعان
+What time is it?	شحال فالوقت

@@ -1,0 +1,48 @@
+datasets:
+  atlasia/darija_english:
+    subsets: ["web_data", "comments", "stories", "doda", "transliteration"]
+    required_columns:
+      web_data: ["darijax", "english", "source"]
+      comments: ["id", "english", "darija", "source"]
+      stories: ["ChapterName", "ChapterLink", "Author", "Tags", "darija", "english", "chunk_id", "source"]
+      doda: ["id", "darija", "en"]
+      transliteration: ["darija_arabizi", "darija_arabic"]
+    special_validation:
+      transliteration:
+        required_columns: ["darija_arabizi", "darija_arabic"]
+    multiple_columns_allowed:
+      transliteration: ["darija"]
+    allowed_extra_columns: ["license"]
+  imomayiz/darija-english:
+    subsets: ["sentences", "submissions"]
+    required_columns:
+      sentences: ["darija", "eng", "darija_ar"]
+      submissions: ["darija", "eng", "darija_ar", "timestamp"]
+    multiple_columns_allowed:
+      sentences: ["darija"]
+      submissions: ["darija"]
+  M-A-D/DarijaBridge:
+    subsets: ["default"]
+    required_columns:
+      default: ["sentence", "translation", "translated", "corrected", "correction", "quality", "metadata"]
+  BounharAbdelaziz/English-to-Moroccan-Darija:
+    subsets: ["default"]
+    required_columns:
+      default: ["english", "darija", "includes_arabizi"]
+
+column_types:
+  english: ["english", "eng", "en", "translation"]
+  darija: ["darija", "darija_ar", "darija_arabic", "darija_arabizi", "sentence"]
+  metadata: ["id", "source", "ChapterName", "ChapterLink", "Author", "Tags", "chunk_id", "metadata", "quality", "translated", "corrected", "correction", "includes_arabizi", "timestamp"]
+
+validation_rules:
+  required_columns: ["english", "darija"]
+  allowed_extra_columns: ["metadata"]
+
+special_cases:
+  multiple_columns_allowed:
+    metadata: true
+
+language_codes:
+  - en
+  - ary

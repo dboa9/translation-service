@@ -1,0 +1,120 @@
+2024-12-27 20:33:14,458 - Testing model: AnasAber/seamless-darija-eng
+2024-12-27 20:33:15,480 - Translation failed for AnasAber/seamless-darija-eng (basic) with 'Hello, how are you?': Translation failed validation checks
+2024-12-27 20:33:16,307 - Translation failed for AnasAber/seamless-darija-eng (basic) with 'كيف حالك؟': Translation failed validation checks
+2024-12-27 20:33:17,141 - Translation failed for AnasAber/seamless-darija-eng (complex) with 'I love Moroccan cuisine and traditional dishes.': Translation failed validation checks
+2024-12-27 20:33:17,979 - Translation failed for AnasAber/seamless-darija-eng (complex) with 'نتمنى لك يوما سعيدا وحياة مليئة بالسعادة': Translation failed validation checks
+2024-12-27 20:33:18,841 - Translation failed for AnasAber/seamless-darija-eng (technical) with 'The model is being trained on the GPU server.': Translation failed validation checks
+2024-12-27 20:33:19,659 - Translation failed for AnasAber/seamless-darija-eng (technical) with 'البيانات يتم معالجتها على الخادم': Translation failed validation checks
+2024-12-27 20:33:20,488 - Translation failed for AnasAber/seamless-darija-eng (edge_case) with '': Translation failed validation checks
+2024-12-27 20:33:21,321 - Translation failed for AnasAber/seamless-darija-eng (edge_case) with 'Hello! مرحبا': Translation failed validation checks
+2024-12-27 20:33:22,184 - Translation failed for AnasAber/seamless-darija-eng (edge_case) with '123 456 789': Translation failed validation checks
+2024-12-27 20:33:22,186 - Testing model: AnasAber/nllb-enhanced-darija-eng_v1-1
+2024-12-27 20:33:22,477 - Translation failed for AnasAber/nllb-enhanced-darija-eng_v1-1 (basic) with 'Hello, how are you?': Translation failed validation checks
+2024-12-27 20:33:22,854 - Translation failed for AnasAber/nllb-enhanced-darija-eng_v1-1 (basic) with 'كيف حالك؟': Translation failed validation checks
+2024-12-27 20:33:23,151 - Translation failed for AnasAber/nllb-enhanced-darija-eng_v1-1 (complex) with 'I love Moroccan cuisine and traditional dishes.': Translation failed validation checks
+2024-12-27 20:33:23,439 - Translation failed for AnasAber/nllb-enhanced-darija-eng_v1-1 (complex) with 'نتمنى لك يوما سعيدا وحياة مليئة بالسعادة': Translation failed validation checks
+2024-12-27 20:33:23,779 - Translation failed for AnasAber/nllb-enhanced-darija-eng_v1-1 (technical) with 'The model is being trained on the GPU server.': Translation failed validation checks
+2024-12-27 20:33:24,076 - Translation failed for AnasAber/nllb-enhanced-darija-eng_v1-1 (technical) with 'البيانات يتم معالجتها على الخادم': Translation failed validation checks
+2024-12-27 20:33:24,368 - Translation failed for AnasAber/nllb-enhanced-darija-eng_v1-1 (edge_case) with '': Translation failed validation checks
+2024-12-27 20:33:24,672 - Translation failed for AnasAber/nllb-enhanced-darija-eng_v1-1 (edge_case) with 'Hello! مرحبا': Translation failed validation checks
+2024-12-27 20:33:24,970 - Translation failed for AnasAber/nllb-enhanced-darija-eng_v1-1 (edge_case) with '123 456 789': Translation failed validation checks
+2024-12-27 20:33:24,972 - Testing model: imomayiz/darija_englishV2.1
+2024-12-27 20:33:25,263 - Translation failed for imomayiz/darija_englishV2.1 (basic) with 'Hello, how are you?': Translation failed validation checks
+2024-12-27 20:33:25,549 - Translation failed for imomayiz/darija_englishV2.1 (basic) with 'كيف حالك؟': Translation failed validation checks
+2024-12-27 20:33:25,840 - Translation failed for imomayiz/darija_englishV2.1 (complex) with 'I love Moroccan cuisine and traditional dishes.': Translation failed validation checks
+2024-12-27 20:33:26,128 - Translation failed for imomayiz/darija_englishV2.1 (complex) with 'نتمنى لك يوما سعيدا وحياة مليئة بالسعادة': Translation failed validation checks
+2024-12-27 20:33:26,419 - Translation failed for imomayiz/darija_englishV2.1 (technical) with 'The model is being trained on the GPU server.': Translation failed validation checks
+2024-12-27 20:33:26,713 - Translation failed for imomayiz/darija_englishV2.1 (technical) with 'البيانات يتم معالجتها على الخادم': Translation failed validation checks
+2024-12-27 20:33:26,996 - Translation failed for imomayiz/darija_englishV2.1 (edge_case) with '': Translation failed validation checks
+2024-12-27 20:33:27,287 - Translation failed for imomayiz/darija_englishV2.1 (edge_case) with 'Hello! مرحبا': Translation failed validation checks
+2024-12-27 20:33:27,590 - Translation failed for imomayiz/darija_englishV2.1 (edge_case) with '123 456 789': Translation failed validation checks
+2024-12-27 20:33:27,592 - Testing model: lachkarsalim/LatinDarija_English-v2
+2024-12-27 20:33:28,561 - Translation failed for lachkarsalim/LatinDarija_English-v2 (basic) with 'Hello, how are you?': Translation failed validation checks
+2024-12-27 20:33:29,399 - Translation failed for lachkarsalim/LatinDarija_English-v2 (basic) with 'كيف حالك؟': Translation failed validation checks
+2024-12-27 20:33:30,356 - Translation failed for lachkarsalim/LatinDarija_English-v2 (complex) with 'I love Moroccan cuisine and traditional dishes.': Translation failed validation checks
+2024-12-27 20:33:31,181 - Translation failed for lachkarsalim/LatinDarija_English-v2 (complex) with 'نتمنى لك يوما سعيدا وحياة مليئة بالسعادة': Translation failed validation checks
+2024-12-27 20:33:32,057 - Translation failed for lachkarsalim/LatinDarija_English-v2 (technical) with 'The model is being trained on the GPU server.': Translation failed validation checks
+2024-12-27 20:33:32,880 - Translation failed for lachkarsalim/LatinDarija_English-v2 (technical) with 'البيانات يتم معالجتها على الخادم': Translation failed validation checks
+2024-12-27 20:33:33,806 - Translation failed for lachkarsalim/LatinDarija_English-v2 (edge_case) with '': Translation failed validation checks
+2024-12-27 20:33:34,637 - Translation failed for lachkarsalim/LatinDarija_English-v2 (edge_case) with 'Hello! مرحبا': Translation failed validation checks
+2024-12-27 20:33:35,463 - Translation failed for lachkarsalim/LatinDarija_English-v2 (edge_case) with '123 456 789': Translation failed validation checks
+2024-12-27 21:01:33,957 - Testing model: AnasAber/seamless-darija-eng
+2024-12-27 21:01:35,091 - Translation failed for AnasAber/seamless-darija-eng (basic) with 'Hello, how are you?': Translation failed validation checks
+2024-12-27 21:01:36,338 - Translation failed for AnasAber/seamless-darija-eng (basic) with 'كيف حالك؟': Translation failed validation checks
+2024-12-27 21:01:38,052 - Translation failed for AnasAber/seamless-darija-eng (complex) with 'I love Moroccan cuisine and traditional dishes.': Translation failed validation checks
+2024-12-27 21:01:39,788 - Translation failed for AnasAber/seamless-darija-eng (complex) with 'نتمنى لك يوما سعيدا وحياة مليئة بالسعادة': Translation failed validation checks
+2024-12-27 21:01:41,400 - Translation failed for AnasAber/seamless-darija-eng (technical) with 'The model is being trained on the GPU server.': Translation failed validation checks
+2024-12-27 21:01:42,258 - Translation failed for AnasAber/seamless-darija-eng (technical) with 'البيانات يتم معالجتها على الخادم': Translation failed validation checks
+2024-12-27 21:01:43,236 - Translation failed for AnasAber/seamless-darija-eng (edge_case) with '': Translation failed validation checks
+2024-12-27 21:01:44,262 - Translation failed for AnasAber/seamless-darija-eng (edge_case) with 'Hello! مرحبا': Translation failed validation checks
+2024-12-27 21:01:45,101 - Translation failed for AnasAber/seamless-darija-eng (edge_case) with '123 456 789': Translation failed validation checks
+2024-12-27 21:01:45,103 - Testing model: AnasAber/nllb-enhanced-darija-eng_v1-1
+2024-12-27 21:01:45,401 - Translation failed for AnasAber/nllb-enhanced-darija-eng_v1-1 (basic) with 'Hello, how are you?': Translation failed validation checks
+2024-12-27 21:01:45,717 - Translation failed for AnasAber/nllb-enhanced-darija-eng_v1-1 (basic) with 'كيف حالك؟': Translation failed validation checks
+2024-12-27 21:01:46,005 - Translation failed for AnasAber/nllb-enhanced-darija-eng_v1-1 (complex) with 'I love Moroccan cuisine and traditional dishes.': Translation failed validation checks
+2024-12-27 21:01:46,292 - Translation failed for AnasAber/nllb-enhanced-darija-eng_v1-1 (complex) with 'نتمنى لك يوما سعيدا وحياة مليئة بالسعادة': Translation failed validation checks
+2024-12-27 21:01:46,590 - Translation failed for AnasAber/nllb-enhanced-darija-eng_v1-1 (technical) with 'The model is being trained on the GPU server.': Translation failed validation checks
+2024-12-27 21:01:46,914 - Translation failed for AnasAber/nllb-enhanced-darija-eng_v1-1 (technical) with 'البيانات يتم معالجتها على الخادم': Translation failed validation checks
+2024-12-27 21:01:47,234 - Translation failed for AnasAber/nllb-enhanced-darija-eng_v1-1 (edge_case) with '': Translation failed validation checks
+2024-12-27 21:01:47,948 - Translation failed for AnasAber/nllb-enhanced-darija-eng_v1-1 (edge_case) with 'Hello! مرحبا': Translation failed validation checks
+2024-12-27 21:01:48,341 - Translation failed for AnasAber/nllb-enhanced-darija-eng_v1-1 (edge_case) with '123 456 789': Translation failed validation checks
+2024-12-27 21:01:48,343 - Testing model: imomayiz/darija_englishV2.1
+2024-12-27 21:01:48,771 - Translation failed for imomayiz/darija_englishV2.1 (basic) with 'Hello, how are you?': Translation failed validation checks
+2024-12-27 21:01:49,143 - Translation failed for imomayiz/darija_englishV2.1 (basic) with 'كيف حالك؟': Translation failed validation checks
+2024-12-27 21:01:49,599 - Translation failed for imomayiz/darija_englishV2.1 (complex) with 'I love Moroccan cuisine and traditional dishes.': Translation failed validation checks
+2024-12-27 21:01:49,901 - Translation failed for imomayiz/darija_englishV2.1 (complex) with 'نتمنى لك يوما سعيدا وحياة مليئة بالسعادة': Translation failed validation checks
+2024-12-27 21:01:51,036 - Translation failed for imomayiz/darija_englishV2.1 (technical) with 'The model is being trained on the GPU server.': Translation failed validation checks
+2024-12-27 21:01:51,351 - Translation failed for imomayiz/darija_englishV2.1 (technical) with 'البيانات يتم معالجتها على الخادم': Translation failed validation checks
+2024-12-27 21:01:52,128 - Translation failed for imomayiz/darija_englishV2.1 (edge_case) with '': Translation failed validation checks
+2024-12-27 21:01:52,416 - Translation failed for imomayiz/darija_englishV2.1 (edge_case) with 'Hello! مرحبا': Translation failed validation checks
+2024-12-27 21:01:52,916 - Translation failed for imomayiz/darija_englishV2.1 (edge_case) with '123 456 789': Translation failed validation checks
+2024-12-27 21:01:53,017 - Testing model: lachkarsalim/LatinDarija_English-v2
+2024-12-27 21:01:54,037 - Translation failed for lachkarsalim/LatinDarija_English-v2 (basic) with 'Hello, how are you?': Translation failed validation checks
+2024-12-27 21:01:54,990 - Translation failed for lachkarsalim/LatinDarija_English-v2 (basic) with 'كيف حالك؟': Translation failed validation checks
+2024-12-27 21:01:55,847 - Translation failed for lachkarsalim/LatinDarija_English-v2 (complex) with 'I love Moroccan cuisine and traditional dishes.': Translation failed validation checks
+2024-12-27 21:01:56,707 - Translation failed for lachkarsalim/LatinDarija_English-v2 (complex) with 'نتمنى لك يوما سعيدا وحياة مليئة بالسعادة': Translation failed validation checks
+2024-12-27 21:01:57,595 - Translation failed for lachkarsalim/LatinDarija_English-v2 (technical) with 'The model is being trained on the GPU server.': Translation failed validation checks
+2024-12-27 21:01:58,418 - Translation failed for lachkarsalim/LatinDarija_English-v2 (technical) with 'البيانات يتم معالجتها على الخادم': Translation failed validation checks
+2024-12-27 21:01:59,251 - Translation failed for lachkarsalim/LatinDarija_English-v2 (edge_case) with '': Translation failed validation checks
+2024-12-27 21:02:00,075 - Translation failed for lachkarsalim/LatinDarija_English-v2 (edge_case) with 'Hello! مرحبا': Translation failed validation checks
+2024-12-27 21:02:00,899 - Translation failed for lachkarsalim/LatinDarija_English-v2 (edge_case) with '123 456 789': Translation failed validation checks
+2024-12-27 21:06:16,933 - Memory usage: 20.2%
+2024-12-27 21:06:17,792 - Memory usage: 20.2%
+2024-12-27 21:06:18,616 - Memory usage: 20.2%
+2024-12-27 21:06:19,442 - Memory usage: 20.0%
+2024-12-27 21:06:20,262 - Memory usage: 20.0%
+2024-12-27 21:06:21,189 - Memory usage: 20.0%
+2024-12-27 21:06:22,033 - Memory usage: 20.0%
+2024-12-27 21:06:22,855 - Memory usage: 20.0%
+2024-12-27 21:06:23,694 - Memory usage: 20.0%
+2024-12-27 21:06:24,516 - Memory usage: 20.0%
+2024-12-27 21:06:24,847 - Memory usage: 20.0%
+2024-12-27 21:06:25,171 - Memory usage: 20.0%
+2024-12-27 21:06:25,469 - Memory usage: 20.0%
+2024-12-27 21:06:25,750 - Memory usage: 20.0%
+2024-12-27 21:06:26,062 - Memory usage: 20.1%
+2024-12-27 21:06:26,378 - Memory usage: 20.1%
+2024-12-27 21:06:26,696 - Memory usage: 20.1%
+2024-12-27 21:06:26,985 - Memory usage: 20.1%
+2024-12-27 21:06:27,302 - Memory usage: 20.1%
+2024-12-27 21:06:27,591 - Memory usage: 20.1%
+2024-12-27 21:06:27,873 - Memory usage: 20.1%
+2024-12-27 21:06:28,161 - Memory usage: 20.1%
+2024-12-27 21:06:28,473 - Memory usage: 20.1%
+2024-12-27 21:06:28,773 - Memory usage: 20.1%
+2024-12-27 21:06:29,100 - Memory usage: 20.1%
+2024-12-27 21:06:29,390 - Memory usage: 20.1%
+2024-12-27 21:06:29,706 - Memory usage: 20.1%
+2024-12-27 21:06:29,984 - Memory usage: 20.1%
+2024-12-27 21:06:30,804 - Memory usage: 20.1%
+2024-12-27 21:06:31,627 - Memory usage: 20.1%
+2024-12-27 21:06:32,446 - Memory usage: 20.1%
+2024-12-27 21:06:33,310 - Memory usage: 20.1%
+2024-12-27 21:06:34,186 - Memory usage: 20.1%
+2024-12-27 21:06:35,065 - Memory usage: 20.1%
+2024-12-27 21:06:35,913 - Memory usage: 20.1%
+2024-12-27 21:06:36,746 - Memory usage: 20.1%
+2024-12-27 21:06:37,691 - Model AnasAber/seamless-darija-eng is not cached
+2024-12-27 21:06:37,693 - Model AnasAber/nllb-enhanced-darija-eng_v1-1 is not cached
+2024-12-27 21:06:37,694 - Model imomayiz/darija_englishV2.1 is not cached
+2024-12-27 21:06:37,696 - Model lachkarsalim/LatinDarija_English-v2 is not cached

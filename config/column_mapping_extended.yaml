@@ -1,0 +1,52 @@
+#Do not REMOVE LOCATION OR FILE NAME COMMENTS, EDIT IF NEEDED BUT NO REMOVAL OF THESE KINDS OF COMMENTS
+#config/column_mapping_extended.yaml
+datasets:
+  atlasia/darija_english:
+    web_data:
+      required_columns:
+        - darija
+        - english
+        - source
+    comments:
+      required_columns:
+        - id
+        - english
+        - darija
+        - source
+    stories:
+      required_columns:
+        - ChapterName
+        - darija
+        - english
+        - chunk_id
+    doda:
+      required_columns:
+        - id
+        - darija
+        - en
+    transliteration:
+      required_columns:
+        - darija_arabizi
+        - darija_arabic
+  imomayiz/darija-english:
+    sentences:
+      required_columns:
+        - darija
+        - eng
+        - darija_ar
+  M-A-D/DarijaBridge:
+    default:
+      required_columns:
+        - sentence
+        - translation
+        - translated
+        - corrected
+        - correction
+        - quality
+        - metadata
+  BounharAbdelaziz/English-to-Moroccan-Darija:
+    default:
+      required_columns:
+        - english
+        - darija
+        - includes_arabizi
