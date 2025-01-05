@@ -26,11 +26,12 @@ ENV/
 env/
 .env/
 
-# IDE
+# IDE and Dependencies
 .idea/
 .vscode/
 *.swp
 *.swo
+node_modules/
 
 # Project specific
 dataset_cache/
@@ -51,6 +52,8 @@ core/translation/**/
 # Cache directories
 **/cache/
 **/__pycache__/
+**/huggingface/
+core/dataset/cache/
 
 # Temporary files
 *.tmp
